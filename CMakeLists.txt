@@ -13,7 +13,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # Include python (use -D flags instead)
 if (NOT PYTHON_INCLUDE_DIRS OR NOT PYTHON_LIBRARY)
     SET(PYTHON_INCLUDE_DIRS "/usr/include/python2.7")
-    SET(PYTHON_LIBRARY "/usr/lib/python2.7/config/libpython2.7.so")
+    SET(PYTHON_LIBRARY "/usr/lib64/libpython2.7.so")
 endif()
 
 # Build np<=>opencv converter library
